@@ -5,7 +5,7 @@
   "scripts": {
     "start": "bun index.html",
     "rundist": "bun ./dist/index.html",
-    "build": "bun build --minify --target=browser ./index.html --outdir=dist --entry-naming '[name].[ext]'"
+    "build": "bun build --minify --target=browser ./index.html --outdir=dist --chunk-naming '[name].[ext]'"
   },
   "private": true,
   "devDependencies": {
