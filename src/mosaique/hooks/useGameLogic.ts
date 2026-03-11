@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import type { ICard, IRole, IGameSettings, IHint } from "../types";
 import { generateSmartGrid } from "../SmartGrid";
-import { getWords } from "../concepts";
+import { getWords } from "../../concepts";
 
 export function useGameLogic(settings: IGameSettings) {
 	const [cards, setCards] = useState<ICard[]>([]);

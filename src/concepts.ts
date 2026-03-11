@@ -1,4 +1,8 @@
-import type { IWord } from "./types";
+export interface IWord {
+	word: string;
+	definition?: string;
+	tags: string[];
+}
 
 const LGBTQ_CONCEPTS = [
 	{

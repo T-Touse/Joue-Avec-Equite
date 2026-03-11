@@ -25,8 +25,4 @@ export function getRoleText(role: IRole) {
 	return role === "spy" ? "Transmetteur" : "Décodeur"
 }
 
-export interface IWord {
-	word: string;
-	definition?: string;
-	tags: string[];
-}
+export type {IWord} from "../concepts"
